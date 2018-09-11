@@ -3,11 +3,11 @@ package com.example.warnene.roomviewmodelpoc.model;
 public class Repo {
     public int id;
     public String name;
-    public Owner owner;
+    public License license;
 
-    static class Owner {
-        String login;
-        String type;
+    public static class License {
+        public String key;
+        public String name;
     }
 
     public String description;
